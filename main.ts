@@ -1,7 +1,7 @@
 namespace progressLoadingAnimation{
 
 //% blockId=progressLoadingAnim
-//% block="progressLoadingBar baslangicSirasi=$BaslangicSira , LedSayisi=$ledSayisi , Durum=$durum"
+//% block="progressLoadingBar BaslangicSirasi=$baslangicSira , LedSayisi=$ledSayisi , Durum=$durum"
 //% ledSayisi.defl=3  baslangicSira.defl=1
 //% durum.defl=true
 //% ledSayisi.min=1  ledSayisi.max=5
