@@ -1,4 +1,3 @@
-//% color="#9C27B0" weight=100 icon="\uf110"
 namespace progressLoadingAnimation{
 
 //% blockId=progressLoadingAnim
@@ -8,12 +7,12 @@ namespace progressLoadingAnimation{
 //% ledSayisi.min=1, ledSayisi.max=5
 //% BaslangicSira.min=0 BaslangicSira.max=4
 //% color="#FF5733"
-export function ProgressBar (BaslangicSira: number, ledSayisi: number, durum: boolean): void 
+export function ProgressBar (baslangicSira: number, ledSayisi: number, durum: boolean): void 
 {
     if (durum) {
         for (let satir = 0; satir <= 4; satir++) {
             for (let sutun = 0; sutun <= ledSayisi - 1; sutun++) {
-                led.plot(satir, sutun + BaslangicSira)
+                led.plot(satir, sutun + baslangicSira)
                 for (let index = 0; index <= 50; index++) {
                     led.setBrightness(index * 4 + 55)
                     basic.pause(10)

@@ -1,1 +1,3 @@
 // tests go here; this will not be compiled when this package is used as an extension.
+progressLoadingAnimation.ProgressBar(1, 3, true)
+progressLoadingAnimation.ProgressBar(1, 3,, true)
