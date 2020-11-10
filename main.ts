@@ -1,11 +1,11 @@
 namespace progressLoadingAnimation{
 
 //% blockId=progressLoadingAnim
-//% block="progressLoadingBar BaslangicSirasi=$BaslangicSira,LedSayisi=$ledSayisi, Durum=$durum"
-//% ledSayisi.defl=3, BaslangicSira.defl=1
+//% block="progressLoadingBar baslangicSirasi=$BaslangicSira, LedSayisi=$ledSayisi, Durum=$durum"
+//% ledSayisi.defl=3  baslangicSira.defl=1
 //% durum.defl=true
-//% ledSayisi.min=1, ledSayisi.max=5
-//% BaslangicSira.min=0 BaslangicSira.max=4
+//% ledSayisi.min=1  ledSayisi.max=5
+//% baslangicSira.min=0 baslangicSira.max=4
 //% color="#FF5733"
 export function ProgressBar (baslangicSira: number, ledSayisi: number, durum: boolean): void 
 {
